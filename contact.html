@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Signet Bioproducts</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <h1 class="logo">Signet Bioproducts</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html" class="btn">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section">
+  <div class="container">
+    <h2>Contact Us</h2>
+
+    <form name="contact" method="POST" data-netlify="true" class="form">
+      <input type="hidden" name="form-name" value="contact" />
+
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <input type="text" name="company" placeholder="Company / Organization" />
+      <select name="purpose">
+        <option>Business Inquiry</option>
+        <option>Sample Request</option>
+        <option>Feedback</option>
+      </select>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <p class="contact-note">
+      📍 Vadodara, Gujarat, India
+    </p>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2026 Signet Bioproducts</p>
+</footer>
+
+</body>
+</html>
